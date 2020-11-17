@@ -1,7 +1,11 @@
 import React from 'react';
 import './App.css';
+import Drake from './Components/Drake';
+
 function App() {
-  return <h1>You Can Do This!</h1>;
+  return (
+    <Drake />
+  );
 }
 
 export default App;
